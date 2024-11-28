@@ -5,7 +5,7 @@ export function Home() {
     <div className="space-y-16">
       <div className="relative h-[600px]">
         <img
-          src="/src/assets/images/homme.jpg"
+          src="../assets/images/home.jpg"
           alt="IIIT Naya Raipur Campus"
           className="w-full h-full object-cover"
         />
@@ -41,17 +41,17 @@ export function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                image: '/src/assets/images/new1.jpg',
+                image: '../assets/images/new1.jpg',
                 title: 'Research Achievement',
                 description: 'Our students won the national robotics competition'
               },
               {
-                image: '/src/assets/images/new2.jpg',
+                image: '../assets/images/new2.jpg',
                 title: 'Campus Development',
                 description: 'New research lab inauguration ceremony'
               },
               {
-                image: '/src/assets/images/new3.jpg',
+                image: '../assets/images/new3.jpg',
                 title: 'Academic Excellence',
                 description: 'IIIT NR ranks among top technical institutes'
               }
